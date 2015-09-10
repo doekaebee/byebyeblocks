@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>byebyeblocks</title>
+        <link rel="stylesheet" type="text/css" href="byebyeblocks.css">
+        <meta name="description" content="More code breakdown work in HTML and CSS."charset="utf-8"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script type ="text/javascript">
+            $(document).ready(function(){
+            
+                $('img').click(function(){
+                    console.log("why");   
+                    $(this).hide(1000);
+                })
+                $('#clicker').click(function(){
+                    $('img').show(1200);
+                })
+                
+            });
+        </script>
+    </head>
+    <body>
+        <div id="toprow">
+            <img src="BLee.png">
+            <img src="BLee.png">
+            <img src="BLee.png">
+            <img src="BLee.png">
+        </div>
+        <div id="bottomrow">
+            <img src="BLee.png">
+            <img src="BLee.png">
+            <img src="BLee.png">
+            <img src="BLee.png">
+        </div>
+        <button id="clicker">Bring Bruce Back!</button>
+
+    </body>
+
+</html>

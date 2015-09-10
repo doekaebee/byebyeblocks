@@ -1,0 +1,29 @@
+img {
+	height: 200px;
+	width: 180px;
+	margin-left: 15px;
+}
+#clicker {
+	display: block;
+	margin-left: 335px;
+	margin-top: 100px;
+	border-radius: 75px;
+	background-color: #600000;
+	background: -webkit-linear-gradient(left, #000000 , #600000, #000000); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #000000 , #600000, #000000); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #000000 , #600000, #000000); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #000000 , #600000, #000000);
+	color: #FF8C00;
+	height: 45px;
+	width: 160px;
+	border-style: solid;
+    border-color: red;
+}
+#bottomrow {
+	margin-top: 20px;
+	border-radius: 5px;
+}
+#toprow {
+	margin-top: 20px;
+	border-radius: 5px;
+}
